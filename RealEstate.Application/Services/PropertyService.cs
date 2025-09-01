@@ -12,7 +12,7 @@ namespace RealEstate.Application.Services
         private readonly IUnitOfWork _unitOfWork;
         private readonly IImageStorage _storage;
 
-        public PropertyService(IUnitOfWork uow, IImageStorage storage, IDateTime clock)
+        public PropertyService(IUnitOfWork uow, IImageStorage storage)
         {
             _unitOfWork = uow;
             _storage = storage;
